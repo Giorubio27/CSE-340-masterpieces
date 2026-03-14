@@ -1,7 +1,7 @@
 import express from 'express';
 import { fileURLToPath } from 'url';
 import path from 'path';
-import { asyncHandler } from './src/utils/asynchandler.js';
+import { asyncHandler } from './utils/asyncHandler.js';
 
 // Define the the application environment
 const NODE_ENV = process.env.NODE_ENV?.toLowerCase() || 'production';
